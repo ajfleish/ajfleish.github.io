@@ -7,8 +7,8 @@
 
 <body>  
     <h1>Korbel at Blue</h1>
-        <h3>Main Menu</h3>
-            <h2>Appetizers</h2>
+        <h2>Main Menu</h2>
+            <h3>Appetizers</h3>
                 <ul>
                     <li>
                         <h4>Tempura Fried</h4>
@@ -46,7 +46,8 @@
                         <p>$14.00</p>
                     </li>
                 </ul>
-            <h2>Salads</h2>
+
+            <h3>Salads</h3>
                 <ul>
                     <li>
                         <h4>Butter Leaf and Fuji Apple</h4>
@@ -67,7 +68,7 @@
                     </li>
                 </ul>
 
-            <h2>Entrees</h2>
+            <h3>Entrees</h3>
                 <ul>
                     <li>
                         <h4>Pan Roasted Chicken Breast</h4>
@@ -106,7 +107,7 @@
                     </li>
                 </ul>
 
-            <h2>Dessert</h2>
+            <h3>Dessert</h3>
                 <ul>
                     <li>
                         <h4>Dark Chocolate Mousse</h4>
