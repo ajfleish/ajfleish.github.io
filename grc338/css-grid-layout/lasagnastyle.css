@@ -1,0 +1,95 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+figure{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-gap: 1em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+}
+
+/*div.container{
+    max-width: 75em;
+    margin: auto;
+}
+im not sure why I need this, it looks like the photo without it. I will leave it out*/
+
+header {
+    background-color: rgb(245, 130, 8);
+    padding: 3em 2em 1em;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding-bottom: .2em;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(245, 220, 190);
+    font-size: 1.2em;
+    padding-bottom: .2em;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+}
+
+figcaption{ 
+    padding: 1em 1.5em 0em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+}
+
+main{
+    padding: 4em 2em 2em;
+}
+
+h3 {
+    border-top: solid;
+    font-kerning: none;
+    text-transform: uppercase;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    color: rgb(245, 130, 8);
+    font-size: 1.2em;
+    padding-top: 1em
+}
+
+li { 
+    margin: 1em 0em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+footer {
+    background-color: rgb(245, 130, 8);
+    padding: 1em;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    padding-left: .5em;
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
